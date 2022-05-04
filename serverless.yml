@@ -1,0 +1,13 @@
+org: sidd92
+app: aws-node-start-prj
+service: aws-node-start-prj
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
